@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import "variables";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font: {
+        family: 'Lato', sans-serif;
+        size: 100%;
+    }
+    color: #444;
+}
+
+body {
+    overflow-x: hidden;
+}
+main {
+    flex: 1 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin: 0;
+}
+
+.inline-list {
+    display: inline-flex;
+}
+
+.parallax {
+    height: 100%;
+}
+
+.card-title {
+    text-shadow: 2px -2px #444;
+}
+
+.blog {
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+}
+
+.primary-color {
+    background-color: $primary-color;
+}
+
+.primary-color-text {
+    color: $primary-color;
+}
+
+.primary-color-light {
+    background: $primary-color-light;
+}
+
+.primary-color-light-text {
+    color: $primary-color-light;
+}
+
+.primary-color-dark {
+    background: $primary-color-dark;
+}
+
+.primary-color-dark-text {
+    color: $primary-color-dark;
+}
+
+.secondary-color {
+    background: $secondary-color;
+}
+
+.secondary-color-text {
+    color: $secondary-color;
+}
+
+.page-header {
+    background: {
+        image: url(assets/img/parallax/header.jpg);
+        size: cover;
+        repeat: no-repeat;
+        position: center;
+        attachment: fixed;
+    }
+
+    height: 100vh;
+
+    .page-title {
+        h1,
+        h2 {
+            text-transform: uppercase;
+            text-shadow: 2px -2px #444;
+        }
+    }
+}
+
+#parallax1 {
+    background: {
+        image: url(assets/img/parallax/first_parallax.jpg);
+        size: cover;
+        repeat: no-repeat;
+        attachment: fixed;
+        position: center;
+    }
+
+    height: 50vh;
+}
+
+
+#parallax2 {
+    background: {
+        image: url(assets/img/parallax/second_parallax.jpg);
+        size: cover;
+        repeat: no-repeat;
+        attachment: fixed;
+        position: center;
+    }
+
+    height: 50vh;
+}
+
+#parallax3 {
+    background: {
+        image: url(assets/img/parallax/thirth_portfolio.jpg);
+        size: cover;
+        repeat: no-repeat;
+        attachment: fixed;
+        position: center;
+    }
+
+    height: 50vh;
+}
+
+// IMPORTED
+@import 
+    "animate-bottom",
+    "materialize/materialize",
+    "font-awesome/font-awesome"
+;
