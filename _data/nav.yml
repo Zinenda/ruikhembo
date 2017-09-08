@@ -1,3 +1,7 @@
+- link: /
+  name: Rui Khembo
+  icon: home
+
 - link: "#sobre"
   name: Sobre
   icon: user
@@ -9,6 +13,10 @@
 - link: "#portfolio"
   name: Portfólio
   icon: folder
+
+- link: "#precos"
+  name: Preços
+  icon: dollar
 
 - link: "#opnioes"
   name: Opniões
