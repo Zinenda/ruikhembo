@@ -128,7 +128,19 @@ footer {
 
 #parallax3 {
     background: {
-        image: url(assets/img/parallax/thirth_portfolio.jpg);
+        image: url(assets/img/parallax/thirth_parallax.jpg);
+        size: cover;
+        repeat: no-repeat;
+        attachment: fixed;
+        position: center;
+    }
+
+    height: 50vh;
+}
+
+#parallax4 {
+    background: {
+        image: url(assets/img/parallax/fourth_parallax.jpg);
         size: cover;
         repeat: no-repeat;
         attachment: fixed;
