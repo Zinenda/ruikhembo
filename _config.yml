@@ -45,3 +45,11 @@ collections:
   servicos:
   portfolio:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      images: ""
+      type: portfolio
+    values:
+      layout: page
