@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<section class="section">
+    <section class="container">
+        <section class="row">
+            <div id="masonry-grid">
+                {% if site.portfolio.casamentos %}
+                    {% for photos in site.portfolio.casamentos %}
+                        <div class="col s12 l4">
+                            <a href="{{ photo.image }}" title="{{ photo.title }}" data-lightbox="casamentos" data-title="{{ photo.title }}">
+                                <img src="{{ photo.image }}" alt="{{ photo.title }}">
+                            </a>
+                        </div>
+                    {% endfor %}
+
+                    {% elsif site.portfolio.bookings %}
+                        {% for photos in site.portfolio.bookings %}
+                            <div class="col s12 l4">
+                                <a href="{{ photo.image }}" title="{{ photo.title }}" data-lightbox="bookings" data-title="{{ photo.title }}">
+                                    <img src="{{ photo.image }}" alt="{{ photo.title }}">
+                                </a>
+                            </div>
+                        {% endfor %}
+
+                    {% elsif  site.portfolio.paisagens %}
+                        {% for photos in site.portfolio.paisagens %}
+                            <div class="col s12 l4">
+                                <a href="{{ photo.image }}" title="{{ photo.title }}" data-lightbox="paisagens" data-title="{{ photo.title }}">
+                                    <img src="{{ photo.image }}" alt="{{ photo.title }}">
+                                </a>
+                            </div>
+                        {% endfor %}
+
+                    {% elsif site.portfolio.clipes %}
+                        {% for videos in site.portfolio.casamentos %}
+                            <div class="col s12 l4">
+                                <iframe width="100%" height="auto" src="{{ video.link }}" frameborder="0" allowfullscreen async preload></iframe>
+                            </div>
+                        {% endfor %}
+                {% endif %}
+            </div>
+        </section>
+    </section>
+</section>

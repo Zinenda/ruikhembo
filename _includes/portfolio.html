@@ -6,12 +6,12 @@
         </div>
         <br><br><br>
         <div class="row">
-            {% for item in site.portfolio %}
+            {% for photos in site.portfolio limit: 3 %}
                 <div class="col s12 l4">
                     <div class="card hoverable">
                         <div class="card-image">
-                            <img src="{{ item.image_small }}" srcset="{{ item.image_small }} 1x, {{ item.image_medium }} 2x, {{ item.image_large }} 3x" alt="{{ ite.title }}" data-caption="{{ item.title }}" class="materialboxed">
-                            <span class="card-title">{{ item.title }}</span>
+                            <img src="{{ photos.images }}" alt="{{ photos.title }}" data-caption="{{ photos.title }}" class="materialboxed">
+                            <span class="card-title">{{ photos.title }}</span>
                         </div>
                     </div>
                 </div>
