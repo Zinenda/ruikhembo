@@ -1,11 +1,14 @@
 # Facebook
 - link: https://facebook.com/ruikhembo
-  name: facebook
+  name: Facebook
+  icon: facebook
 
 # Instagram
-- link: https://instagram.com/ruikhembo
-  name: instagram
+- link: https://instagram.com/ruikhembo\
+  name: Instagram
+  icon: instagram
 
 # Email
 - link: mailto:rui.khembo@gmail.com
-  name: envelope
+  name: Email
+  icon: envelope
