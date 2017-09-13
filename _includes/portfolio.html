@@ -6,16 +6,41 @@
         </div>
         <br><br><br>
         <div class="row">
-            {% for photos in site.portfolio limit: 3 %}
-                <div class="col s12 l4">
-                    <div class="card hoverable">
-                        <div class="card-image">
-                            <img src="{{ photos.images }}" alt="{{ photos.title }}" data-caption="{{ photos.title }}" class="materialboxed">
-                            <span class="card-title">{{ photos.title }}</span>
-                        </div>
+            <div class="col s12 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="/assets/img/portfolio/bookings/alichia_adams.jpg" alt="Alichia Adams" class="materialboxed">
+                        <span class="card-title">Booking de Alichia Adams</span>
+                    </div>
+                    <div class="card-action center">
+                        <a href="/portfolio/bookings" title="Portfolio de Bookings" class="btn-flat waves-effect">Veja Mais</a>
                     </div>
                 </div>
-            {% endfor %}
+            </div>
+
+            <div class="col s12 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="/assets/img/portfolio/casamentos/noivos_exibindo_aliancas.jpg" alt="Casamento" class="materialboxed">
+                        <span class="card-title">Cobertura de Casamentos</span>
+                    </div>
+                    <div class="card-action center">
+                        <a href="/portfolio/casamentos" title="Cobertura de Casamentos" class="btn-flat waves-effect">Veja Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 l4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="/assets/img/portfolio/paisagens/zambeze_bridge.jpg" alt="Vista da Ponte Samora" class="materialboxed">
+                        <span class="card-title">Vista da Ponte Samora</span>
+                    </div>
+                    <div class="card-action center">
+                        <a href="/portfolio/paisagens" title="Vista da Ponte Samora" class="btn-flat waves-effect">Veja Mais</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -1,0 +1,11 @@
+- link: /portfolio/bookings
+  name: Bookings
+  icon: camera-retro
+
+- link: /portfolio/casamentos
+  name: Casamentos
+  icon: heart
+
+- link: /portfolio/paisagens/
+  name: Paisagens
+  icon: image
