@@ -1,0 +1,23 @@
+{
+  "name": "ruikhembo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "surge": "^0.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zinenda/ruikhembo.git"
+  },
+  "author": "Ivo Zinenda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zinenda/ruikhembo/issues"
+  },
+  "homepage": "https://github.com/Zinenda/ruikhembo#readme"
+}
