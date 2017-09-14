@@ -18,10 +18,6 @@
   name: Preços
   icon: dollar
 
-- link: "#opnioes"
-  name: Opniões
-  icon: comment
-
 - link: "mailto:rui.khembo@gmail.com"
   name: Contactos
   icon: envelope
