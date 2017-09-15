@@ -1,55 +1,51 @@
+---
 title: Rui Khembo
+timezone: UTC
+collections:
+  portfolio:
+    title: Portfolio
+    output: true
+  posts:
+    title: Posts
+    output: true
+  servicos:
+    title: Servicos
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: portfolio
+  values:
+    layout: page
 email: rui.khembo@gmail.com
-description: "Produtor Fotográfico & Vídeográfico"
-
+description: Produtor Fotográfico & Vídeográfico
 author: Ivo Zinenda
-
-# Build settings
 markdown: kramdown
-
 plugins:
-  - jekyll-email-protect
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - hawkins
-  - jekyll-autolink_email
-
+- jekyll-email-protect
+- jekyll-seo-tag
+- jekyll-sitemap
+- hawkins
+- jekyll-autolink_email
 analytics: 
-
 exclude:
-   - bower_components
-
-# Assets
+- bower_components
 sass:
   sass_dir: assets/_sass
   style: compressed
-
-image: /assets/img/logotype.svg
-logo: /assets/img/logo.svg
-
-first_title: "Quem Sou"
-first_description: "Olá Sou Rui Khembo, jovem ambicioso que veio ao mundo aos 28 de Setembro de 1993, actualmente sou fotográfo profissional e produtor de videos.
-Sou natural da Cidade de Tete, cresci na mesma cidade, sou formado em Engenharia Civil, 
-todavia, a produção multimedia encantou me e por essa recém paixão, bem paixão essa que começou em 2014, 
-desisti da Engenharia e dediquei me a este hobbie que hoje tornou se minha profissão"
-
-second_title: "Serviços"
-
-
-thirth_title: "Portfólio"
-
+image: "/assets/img/logotype.svg"
+logo: "/assets/img/logo.svg"
+first_title: Quem Sou
+first_description: Olá Sou Rui Khembo, jovem ambicioso que veio ao mundo aos 28 de
+  Setembro de 1993, actualmente sou fotográfo profissional e produtor de videos. Sou
+  natural da Cidade de Tete, cresci na mesma cidade, sou formado em Engenharia Civil,
+  todavia, a produção multimedia encantou me e por essa recém paixão, bem paixão essa
+  que começou em 2014, desisti da Engenharia e dediquei me a este hobbie que hoje
+  tornou se minha profissão
+second_title: Serviços
+thirth_title: Portfólio
 primary-color: "#35495e"
 secondary-color: "#444"
-
-collections:
-  servicos:
-  portfolio:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      images: ""
-      type: portfolio
-    values:
-      layout: page
