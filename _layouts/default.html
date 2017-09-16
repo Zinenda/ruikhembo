@@ -6,12 +6,15 @@ layout: compress
     {% include head.html %}
     
     <body id="top">
-        {% include navbar.html %}
+        <div class="animate-bottom">
+            {% include navbar.html %}
+            {% include header.html %}
 
-        <main class="animate-bottom">
-            {{ content }}
-        </main>
+            <main>
+                {{ content }}
+            </main>
 
-        {% include fab.html %}
-        {% include footer.html %}
-        {% include scripts.html %}
+            {% include fab.html %}
+            {% include footer.html %}
+            {% include scripts.html %}
+        </div>

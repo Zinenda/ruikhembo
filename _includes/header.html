@@ -1,11 +1,27 @@
-<header class="page-header white-text">
-    <div class="container">
-        <div class="page-title center">
-            <img src="{{ site.image }}" alt="{{ site.title }}">
-            <br><br><br>
-            {% include social.html %}
-            <br>
-            <a href="#sobre" class="btn-floating btn-large waves-effect pulse"><i class="fa fa-lg fa-chevron-circle-down"></i></a>
+{% if page.layout == "page" %}
+    <header class="secondary-color white-text" style="height: 60vh;">
+        <div class="container">
+            <div class="center">
+                <br><br>
+                <a href="{{ site.url }}" title="{{ site.title }}">
+                    <img src="{{ site.image }}" alt="{{ site.title }}" style="width: 300px;">
+                </a>
+                <h1 title="{{ page.title }}">{{ page.title }}</h1>
+                {% include social.html %}
+            </div>
         </div>
-    </div>
-</header>
+    </header>
+
+    {% else %}
+    <header class="page-header white-text">
+        <div class="container">
+            <div class="page-title center">
+                <img src="{{ site.image }}" alt="{{ site.title }}">
+                <br><br><br>
+                {% include social.html %}
+                <br>
+                <a href="#sobre" class="btn-floating btn-large waves-effect pulse"><i class="fa fa-lg fa-chevron-circle-down"></i></a>
+            </div>
+        </div>
+    </header>
+{% endif %}

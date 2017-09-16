@@ -1,5 +1,7 @@
 ---
 title: Bookings
+icon: camera-retro
+image: /assets/img/portfolio/bookings/alichia_adams.jpg
 images:
     - image_path: /assets/img/portfolio/bookings/alichia_adams.jpg
       title: Alichia Adams

@@ -10,10 +10,6 @@
   name: Serviços
   icon: tasks
 
-- link: "#portfolio"
-  name: Portfólio
-  icon: folder
-
 - link: "#precos"
   name: Preços
   icon: dollar

@@ -19,6 +19,7 @@ group :jekyll_plugins do
     gem 'hawkins'
     gem 'jekyll-autolink_email'
     gem 'uglifier'
+    gem 'jekyll-cloudinary'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

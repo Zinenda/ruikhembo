@@ -1,4 +1,0 @@
----
-title: Fotográfias
-icon: camera
----

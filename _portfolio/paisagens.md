@@ -1,5 +1,7 @@
 ---
 title: Paisagens
+icon: image
+image: /assets/img/portfolio/paisagens/sunshine.jpg
 images:
     - image_path: /assets/img/portfolio/paisagens/flee.jpg
       title: Folha de uma árvore

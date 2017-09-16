@@ -53,3 +53,14 @@ defaults:
       type: portfolio
     values:
       layout: page
+
+cloudinary:
+  cloud_name: izitag
+  verbose: true
+  presets: 
+    defaults: 
+      min_width : 320
+      max_width: 1080
+      fallback_max_width: 720
+      steps: 5
+      size: "(min-width: 50rem) 50rem, 90vw"

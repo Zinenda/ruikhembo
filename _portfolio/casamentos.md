@@ -1,5 +1,7 @@
 ---
 title: Casamentos
+icon: heart
+image: /assets/img/portfolio/casamentos/buque.jpg
 images:
     - image_path: /assets/img/portfolio/casamentos/buque_cidade_tete.jpg
       title: Buquê e a Vista

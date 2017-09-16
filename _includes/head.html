@@ -36,4 +36,8 @@
     <link rel="apple-touch-icon" href="{{ site.image }}">
 
     {% include scssify.html %}
+
+    {% if page.title == "Videos" %}
+        {% include youtube-light-css.html %}
+    {% endif %}
 </head>

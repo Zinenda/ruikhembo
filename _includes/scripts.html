@@ -9,4 +9,8 @@
     <script src="/assets/js/lightbox.min.js" defer></script>
 {% endif %}
 
+{% if page.title == "Videos" %}
+    {% include light-youtube-embed.html %}
+{% endif %}
+
 {% include ga.html %}

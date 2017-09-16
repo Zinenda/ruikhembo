@@ -6,6 +6,10 @@
   name: Casamentos
   icon: heart
 
-- link: /portfolio/paisagens/
+- link: /portfolio/videos
+  name: Videos
+  icon: video-camera
+
+- link: /portfolio/paisagens
   name: Paisagens
   icon: image

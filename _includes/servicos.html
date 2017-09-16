@@ -4,12 +4,23 @@
         <h2 class="center-align">{{ site.second_title }}</h2>
         <br><br><br>
         <div class="row">
-            {% for item in site.servicos %}
-                <div class="col s12 l4">
-                    <div class="center">
-                        <i class="fa fa-5x fa-{{ item.icon }}"></i>
-                        <h3>{{ item.title }}</h3>
-                        <p>{{ item.description }}</p>
+            {% for photos in site.portfolio %}
+                <div class="col s12 l3">
+                    <div class="card small hoverable">
+                        <div class="card-image">
+                            <img src="{{ photos.image }}" alt="{{ photos.title }}" class="materialboxed" data-caption="{{ photos.title }}">
+                            <div class="center">
+                                <span class="card-title">{{ photos.title }}</span>
+                            </div>
+                        </div>
+                        <div class="center">
+                            <div class="card-content">
+                                <span class="fa fa-3x fa-{{ photos.icon }}"></span>
+                            </div>
+                            <div class="card-action">
+                                <a href="{{ photos.url }}" class="btn-flat waves-effect">Veja Mais</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             {% endfor %}

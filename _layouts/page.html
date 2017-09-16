@@ -2,30 +2,29 @@
 layout: default
 ---
 
-<header class="slider hide-on-med-and-down">
-    <ul class="slides">
-        {% for photos in page.images limit: 3 %}
-            <li>
-                <img src="{{ photos.image_path }}" alt="{{ photos.title }}">
-                <div class="caption left-align">
-                    <h2>{{ photos.title }}</h2>
-                </div>
-            </li>
-        {% endfor %}
-    </ul>
-</header>
-
 <section class="section">
-    <section class="container">
+    <section>
         <section class="row">
             <div id="masonry-grid">
-                {% for photos in page.images %}
-                    <div class="col s12 l4">
-                        <a href="{{ photos.image_path }}" title="{{ photo.title }}" data-title="{{ photo.title }}" data-lightbox="{% if page.title == "Casamentos" %}casamentos {% elsif page.title == "Paisagens" %}paisagens {% elsif page.title == "Bookings" %} bookings {% endif %}">
-                            <img src="{{ photos.image_path }}" alt="{{ photo.title }}">
-                        </a>
-                    </div>
-                {% endfor %}
+                {% if page.title == "Videos" %}
+                    {% for video in page.videos %}
+                        <div class="col s12 l6">
+                            <div class="video-container">
+                                <div class="youtube-player" data-id="{{ video.id }}"></div>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+                    {% else %}
+                        {% for photos in page.images %}
+                            <div class="col s12 l4">
+                                <a href="{{ photos.image_path }}" title="{{ photo.title }}" data-title="{{ photo.title }}" data-lightbox="{% if page.title == "Casamentos" %}casamentos {% elsif page.title == "Paisagens" %}paisagens {% elsif page.title == "Bookings" %} bookings {% endif %}">
+                                    <img src="{{ photos.image_path }}" alt="{{ photo.title }}">
+                                </a>
+                            </div>
+                        {% endfor %}
+                        
+                {% endif %}
             </div>
         </section>
     </section>
