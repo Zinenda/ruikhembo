@@ -42,6 +42,7 @@ primary-color: "#35495e"
 secondary-color: "#444"
 
 collections:
+  precos: 
   servicos:
   portfolio:
     output: true
