@@ -3,24 +3,19 @@
         <h2 class="center-align">Tabelas de Preços</h2>
 
         <div class="row">
-            <h3 class="center-align">Eventos</h3>
-            {% for item in site.precos_eventos %}
-                <div class="col s12 l4">
-                    <div class="card-panel hoverable center blue-grey white-text">
+            <ul class="col s12 tabs">
+                <li class="tab col s6">
+                    <a href="#mavic" title="Eventos">Eventos</a>
+                </li>
 
-                        <h4>{{ item.title }}</h4>
-                        <hr>
-                        <h5>Preço: {{ item.price }}</h5>
-
-                        <p>Fotos: {{ item.photos }}</p>
-                        <p>Videos: {{ item.videos }}</p>
-                        <p>Extras: {{ item.extras }}</p>
-                        <hr>
-                        <p class="oblique">Descrição: {{ item.description }}</p>
-                    </div>
-                </div>
-            {% endfor %}
+                <li class="tab col s6">
+                    <a href="#booking" title="Bookings">Bookings</a>
+                </li>
+            </ul>
         </div>
+
+        {% include precos_mavic.html %}
+        {% include precos_booking.html %}
     </div>
 </section>
 

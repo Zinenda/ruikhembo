@@ -44,6 +44,7 @@ secondary-color: "#444"
 collections:
   precos:
   precos_eventos:
+  precos_bookings:
   servicos:
   portfolio:
     output: true
