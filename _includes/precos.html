@@ -3,13 +3,24 @@
         <h2 class="center-align">Tabelas de Preços</h2>
 
         <div class="row">
-            {% include precos-booking.html %}
+            <h3 class="center-align">Eventos</h3>
+            {% for item in site.precos_eventos %}
+                <div class="col s12 l4">
+                    <div class="card-panel hoverable center blue-grey white-text">
 
-            {% include precos-eventos.html %}
+                        <h4>{{ item.title }}</h4>
+                        <hr>
+                        <h5>Preço: {{ item.price }}</h5>
 
-            {% include precos-music-video.html %}
+                        <p>Fotos: {{ item.photos }}</p>
+                        <p>Videos: {{ item.videos }}</p>
+                        <p>Extras: {{ item.extras }}</p>
+                        <hr>
+                        <p class="oblique">Descrição: {{ item.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
         </div>
-        
     </div>
 </section>
 
