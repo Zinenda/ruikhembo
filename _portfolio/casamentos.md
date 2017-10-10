@@ -23,10 +23,6 @@ images:
   title: Noivo Sorridente
 - image_path: "/assets/img/portfolio/casamentos/noivos_exibindo_aliancas.jpg"
   title: Noivos Exibindo Alianças
-- image_path: "/assets/img/portfolio/casamentos/vestido_de_noiva.jpg"
-  title: Vestido de Noiva
-- image_path: "/assets/img/portfolio/casamentos/biscoitos.jpg"
-  title: Biscoitos
 - image_path: "/assets/img/portfolio/casamentos/calice.jpg"
   title: Calice
 - image_path: "/assets/img/portfolio/casamentos/colar_brincos.jpg"
