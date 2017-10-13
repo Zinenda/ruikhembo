@@ -1,9 +1,6 @@
 ---
 pages:
-- _portfolio/videos.md
-- _portfolio/paisagens.md
-- _portfolio/casamentos.md
-- _portfolio/bookings.md
+- _bookings/anamargarida.md
 hide_body: false
 fields:
 - name: title
