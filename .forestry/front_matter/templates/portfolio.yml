@@ -1,5 +1,6 @@
 ---
 pages:
+- _bookings/stela.md
 - _bookings/stela-mendes.md
 hide_body: false
 fields:
