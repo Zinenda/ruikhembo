@@ -1,0 +1,60 @@
+---
+pages:
+- _portfolio/videos.md
+- _portfolio/paisagens.md
+- _portfolio/casamentos.md
+- _portfolio/bookings.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: icon
+  label: Icon
+  type: text
+  hidden: false
+  default: ''
+- type: file
+  name: image
+  label: Image
+- name: images
+  label: Images
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+  - type: image_gallery
+    name: image_path
+    label: Image Path
+  hidden: false
+  default: ''
+  config:
+    labelField: image_path
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: videos
+  label: Videos
+  type: field_group_list
+  fields:
+  - name: id
+    label: Id
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: page
+- type: image_gallery
+  name: image_path
+  label: Images
