@@ -1,4 +1,6 @@
 ---
+pages:
+- _bookings/isabel-maria-dique.md
 hide_body: false
 fields:
 - name: layout
