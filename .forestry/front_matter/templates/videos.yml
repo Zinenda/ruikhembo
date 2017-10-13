@@ -1,6 +1,4 @@
 ---
-pages:
-- _bookings/isabel-dique.md
 hide_body: false
 fields:
 - name: layout
