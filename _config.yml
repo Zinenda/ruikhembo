@@ -42,17 +42,42 @@ primary-color: "#35495e"
 secondary-color: "#444"
 
 collections:
-  precos:
   precos_eventos:
   precos_bookings:
   servicos:
-  portfolio:
-    output: true
+  casamentos:
+  bookings:
+  diversos:
+  videos:
 
 defaults:
   - scope:
       path: ""
-      images: ""
-      type: portfolio
+      image: ""
+      type: bookings
+    values:
+      layout: page
+
+defaults:
+  - scope:
+      path: ""
+      image: ""
+      type: casamentos
+    values:
+      layout: page
+
+defaults:
+  - scope:
+      path: ""
+      image: ""
+      type: diversos
+    values:
+      layout: page
+
+defaults:
+  - scope:
+      path: ""
+      id: ""
+      type: videos
     values:
       layout: page

@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /bookings/
+title: Bookings
+---
+
+{% for photos in site.bookings %}
+    <div class="col s12 l4">
+        <a href="{{ photos.image }}" title="{{ photo.title }}" data-title="{{ photo.title }}" data-lightbox="bookings">
+            <img src="{{ photos.image }}" alt="{{ photo.title }}">
+        </a>
+    </div
+{% endfor %}

@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /videos/
+title: Videos
+---
+
+{% for video in site.videos %}
+    <div class="col s12 l6">
+        <div class="video-container">
+            <div class="youtube-player" data-id="{{ video.id }}"></div>
+        </div>
+    </div>
+{% endfor %}
