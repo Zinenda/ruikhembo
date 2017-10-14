@@ -2,6 +2,6 @@
 layout: page
 title: Vestido da Noiva Ana Margarida
 date: 2017-10-14 01:54:43 +0000
-image: "/uploads/2017/10/13/_MG_5598.jpg"
+image: "/uploads/2017/10/13/vestido.jpg"
 videos: []
 ---
