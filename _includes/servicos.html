@@ -1,16 +1,14 @@
 <section id="servicos" class="section scrollspy grey lighten-4">
     <div class="container">
         <div class="center">
-            <br><br><br>
-            <span class="fa fa-5x fa-tasks"></span>
             <h2>{{ site.second_title }}</h2>
-            <br><br><br>
 
             <div class="row">
                 {% for item in site.servicos %}
                     <div class="col s12 l4">
                         <span class="fa fa-3x fa-{{ item.icon }}"></span>
                         <h3>{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
                     </div>
                 {% endfor %}
             </div>

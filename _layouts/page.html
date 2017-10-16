@@ -5,8 +5,13 @@ layout: default
 <section class="section">
     <section class="row">
         <div id="masonry-grid">
-            {{ content }}
+            {% for item in page.images %}
+                <div class="col s6 l4">
+                    <a href="{{ item }}" title="{{ page.title }}" data-lightbox="{{ page.title }}">
+                        <img src="{{ item }}" alt="{{ page.title }}">
+                    </a>
+                </div>
+            {% endfor %}
         </div>
     </section>
 </section>
-

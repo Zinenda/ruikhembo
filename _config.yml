@@ -45,39 +45,13 @@ collections:
   precos_eventos:
   precos_bookings:
   servicos:
-  casamentos:
-  bookings:
-  diversos:
-  videos:
+  portfolio:
+    output: true
 
 defaults:
   - scope:
       path: ""
       image: ""
-      type: bookings
-    values:
-      layout: page
-
-defaults:
-  - scope:
-      path: ""
-      image: ""
-      type: casamentos
-    values:
-      layout: page
-
-defaults:
-  - scope:
-      path: ""
-      image: ""
-      type: diversos
-    values:
-      layout: page
-
-defaults:
-  - scope:
-      path: ""
-      id: ""
-      type: videos
+      type: portfolio
     values:
       layout: page

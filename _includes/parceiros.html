@@ -1,0 +1,7 @@
+<ul>
+    {% for item in site.data.parceiros %}
+        <li>
+            <a href="{{ item.link }}" title="{{ item.name }}" class="white-text">{{ item.name }}</a>
+        </li>
+    {% endfor %}
+</ul>
