@@ -2,6 +2,12 @@
 date: 2017-10-16 11:32:35 +0000
 image: "/uploads/2017/10/16/damas-do-casamento-de-ana-margarida.jpg"
 images:
+- "/uploads/2017/10/16/pensado6.jpg"
+- "/uploads/2017/10/16/pensado5.jpg"
+- "/uploads/2017/10/16/pensado4.jpg"
+- "/uploads/2017/10/16/pensado3.jpg"
+- "/uploads/2017/10/16/pensado2.jpg"
+- "/uploads/2017/10/16/pensado1.jpg"
 - "/uploads/2017/10/16/dream3.jpg"
 - "/uploads/2017/10/16/dreamdresssunshine.jpg"
 - "/uploads/2017/10/16/dress2.jpg"
