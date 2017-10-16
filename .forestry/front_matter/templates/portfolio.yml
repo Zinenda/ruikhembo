@@ -1,5 +1,6 @@
 ---
 pages:
+- _portfolio/bookings.md
 - _portfolio/casamentos.md
 hide_body: false
 fields:
