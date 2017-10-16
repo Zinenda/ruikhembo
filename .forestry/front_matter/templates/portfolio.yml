@@ -1,7 +1,7 @@
 ---
 pages:
-- _portfolio/diversos.md
 - _portfolio/bookings.md
+- _portfolio/diversos.md
 - _portfolio/casamentos.md
 hide_body: false
 fields:
