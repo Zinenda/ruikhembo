@@ -1,15 +1,15 @@
-- link: /bookings/
+- link: /portfolio/bookings
   name: Bookings
   icon: camera-retro
 
-- link: /casamentos/
+- link: /portfolio/casamentos
   name: Casamentos
   icon: heart
 
-- link: /diversos/
+- link: /portfolio/diversos
   name: Diversos
   icon: image
 
-- link: /videos/
+- link: /portfolio/videos
   name: Videos
   icon: video-camera
