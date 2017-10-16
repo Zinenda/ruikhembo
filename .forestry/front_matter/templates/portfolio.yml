@@ -1,43 +1,4 @@
 ---
-pages:
-- _casamentos/ana-dama.md
-- _casamentos/sheila-ana-margarida.md
-- _casamentos/sheila-damas.md
-- _casamentos/damas-de-honra-do-casamento-de-ana-margarida.md
-- _casamentos/ana-vestido.md
-- _casamentos/ana_margarida.md
-- _casamentos/vestido-de-noiva.md
-- _casamentos/ana-margarida-amigas.md
-- _casamentos/armando-ana-margarida.md
-- _casamentos/vestido-da-noiva-ana-margarida.md
-- _casamentos/ana-margarida-smiling.md
-- _casamentos/ana-margarida.md
-- _casamentos/senhor-senhora-gravata.md
-- _casamentos/senhora-gravata.md
-- _casamentos/casal-gravata-1.md
-- _casamentos/casal-gravata.md
-- _bookings/timbe-khembo.md
-- _bookings/timbany-khembo.md
-- _bookings/marlene-gonsalves.md
-- _bookings/capucho.md
-- _bookings/capuchinho.md
-- _bookings/armandinho.md
-- _bookings/alichia-adams.md
-- _bookings/alichia.md
-- _bookings/isabel-maria-dique.md
-- _bookings/isabel-dique.md
-- _bookings/stela.md
-- _bookings/stela-mendes.md
-- _diversos/folha-saturada.md
-- _diversos/miniatura.md
-- _diversos/flor.md
-- _diversos/solo-saturado.md
-- _diversos/murchando.md
-- _diversos/grupo-de-arvores.md
-- _diversos/natureza-saturada.md
-- _diversos/reflexo.md
-- _diversos/rio-zambeze-e-o-monte-calouera.md
-- _diversos/vista-da-ponte-samora-moises-machel.md
 hide_body: false
 fields:
 - name: title
@@ -59,6 +20,9 @@ fields:
     default: ''
   hidden: false
   default: ''
+- type: image_gallery
+  name: images
+  label: Images
 - name: layout
   label: Layout
   type: text
