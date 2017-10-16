@@ -42,11 +42,11 @@ primary-color: "#35495e"
 secondary-color: "#444"
 
 collections:
+  portfolio:
+    output: true
   precos_eventos:
   precos_bookings:
   servicos:
-  portfolio:
-    output: true
 
 defaults:
   - scope:
