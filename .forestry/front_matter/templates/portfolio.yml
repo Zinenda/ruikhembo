@@ -1,4 +1,6 @@
 ---
+pages:
+- _portfolio/casamentos.md
 hide_body: false
 fields:
 - name: title
