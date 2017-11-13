@@ -1,4 +1,5 @@
 ---
+title: Diversos
 date: 2017-10-16 12:49:30 +0000
 image: "/assets/img/parallax/first_parallax.jpg"
 images:
@@ -28,6 +29,4 @@ images:
 - "/uploads/2017/10/16/diversos2.jpg"
 - "/uploads/2017/10/16/diversos1.jpg"
 layout: page
-title: Diversos
-videos: []
 ---

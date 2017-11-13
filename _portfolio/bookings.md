@@ -40,5 +40,5 @@ images:
 - "/uploads/2017/10/16/09-2.jpg"
 - "/uploads/2017/10/16/3.jpg"
 - "/uploads/2017/10/16/0001.jpg"
-videos: []
+layout: page
 ---
