@@ -3,6 +3,7 @@ title: Diversos
 date: 2017-10-16 12:49:30 +0000
 image: "/uploads/2018/01/04/D10-1.png"
 images:
+- "/uploads/2018/01/04/d1-4.png"
 - "/uploads/2018/01/04/d2-2.png"
 - "/uploads/2018/01/04/d1-3.png"
 - "/uploads/2018/01/04/a9.png"
