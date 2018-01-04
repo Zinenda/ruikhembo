@@ -3,6 +3,17 @@ title: Diversos
 date: 2017-10-16 12:49:30 +0000
 image: "/assets/img/parallax/first_parallax.jpg"
 images:
+- "/uploads/2018/01/04/d10.png"
+- "/uploads/2018/01/04/d9.png"
+- "/uploads/2018/01/04/d8.png"
+- "/uploads/2018/01/04/d7.png"
+- "/uploads/2018/01/04/d6.png"
+- "/uploads/2018/01/04/d5.png"
+- "/uploads/2018/01/04/d4.png"
+- "/uploads/2018/01/04/d3.png"
+- "/uploads/2018/01/04/d2.png"
+- "/uploads/2018/01/04/d1.png"
+- "/uploads/2018/01/04/d.png"
 - "/uploads/2017/10/16/RH.jpg"
 - "/uploads/2017/10/16/PS-MM.jpg"
 - "/uploads/2017/10/16/IMG_2207.jpg"
@@ -29,4 +40,5 @@ images:
 - "/uploads/2017/10/16/diversos2.jpg"
 - "/uploads/2017/10/16/diversos1.jpg"
 layout: page
+videos: []
 ---
