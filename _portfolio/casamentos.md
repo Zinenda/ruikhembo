@@ -1,7 +1,7 @@
 ---
 title: Casamentos
 date: 2017-10-16 11:32:35 +0000
-image: "/uploads/2017/10/16/damas-do-casamento-de-ana-margarida.jpg"
+image: "/uploads/2018/01/04/d20.png"
 images:
 - "/uploads/2018/01/04/c14.png"
 - "/uploads/2018/01/04/c13.png"
