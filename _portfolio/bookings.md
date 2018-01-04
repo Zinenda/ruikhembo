@@ -4,6 +4,13 @@ title: Bookings
 date: 2017-10-16 17:50:21 +0000
 image: "/uploads/2017/10/16/al-(4).jpg"
 images:
+- "/uploads/2018/01/04/q6.png"
+- "/uploads/2018/01/04/q5.png"
+- "/uploads/2018/01/04/q4.png"
+- "/uploads/2018/01/04/q3.png"
+- "/uploads/2018/01/04/q2.png"
+- "/uploads/2018/01/04/q1.png"
+- "/uploads/2018/01/04/b5-2.png"
 - "/uploads/2018/01/04/b5-1.png"
 - "/uploads/2018/01/04/b4-1.png"
 - "/uploads/2018/01/04/b3-1.png"
