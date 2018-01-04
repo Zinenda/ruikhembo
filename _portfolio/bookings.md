@@ -4,6 +4,11 @@ title: Bookings
 date: 2017-10-16 17:50:21 +0000
 image: "/uploads/2017/10/16/al-(4).jpg"
 images:
+- "/uploads/2018/01/04/b6.png"
+- "/uploads/2018/01/04/b5-3.png"
+- "/uploads/2018/01/04/b3-2.png"
+- "/uploads/2018/01/04/b2-2.png"
+- "/uploads/2018/01/04/b1-2.png"
 - "/uploads/2018/01/04/q6.png"
 - "/uploads/2018/01/04/q5.png"
 - "/uploads/2018/01/04/q4.png"
@@ -19,9 +24,6 @@ images:
 - "/uploads/2018/01/04/b1-1.png"
 - "/uploads/2018/01/04/b5.png"
 - "/uploads/2018/01/04/b4.png"
-- "/uploads/2018/01/04/b3.png"
-- "/uploads/2018/01/04/b2.png"
-- "/uploads/2018/01/04/b1.png"
 - "/uploads/2018/01/04/TIDES.png22.png"
 - "/uploads/2017/10/16/timbe.jpg"
 - "/uploads/2017/10/16/timbany.jpg"
