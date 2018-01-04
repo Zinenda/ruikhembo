@@ -41,10 +41,8 @@ images:
 - "/uploads/2017/10/16/ana_margarida.jpg"
 - "/uploads/2017/10/16/ana_looking.jpg"
 - "/uploads/2017/10/16/ana_e_damas.jpg"
-- "/uploads/2017/10/16/ana_buque.jpg"
-- "/uploads/2017/10/16/ana.jpg"
 - "/uploads/2017/10/16/ana&sheila.jpg"
 - "/uploads/2017/10/16/ana&dama.jpg"
-- "/uploads/2017/10/16/ana&armando.jpg"
 layout: page
+videos: []
 ---
