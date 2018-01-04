@@ -4,6 +4,7 @@ title: Bookings
 date: 2017-10-16 17:50:21 +0000
 image: "/uploads/2017/10/16/09.jpg"
 images:
+- "/uploads/2018/01/04/TIDES.png22.png"
 - "/uploads/2017/10/16/timbe.jpg"
 - "/uploads/2017/10/16/timbany.jpg"
 - "/uploads/2017/10/16/thirty_six_old_woman.jpg"
@@ -40,5 +41,5 @@ images:
 - "/uploads/2017/10/16/09-2.jpg"
 - "/uploads/2017/10/16/3.jpg"
 - "/uploads/2017/10/16/0001.jpg"
-layout: page
+videos: []
 ---
