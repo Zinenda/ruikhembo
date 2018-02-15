@@ -2,7 +2,7 @@
 title: Mavic BÁSICO
 price: 25.000.00 MTs
 videos: 1 hora
-photos: 200 digital
+photos: 200 entregues digitalmente
 extras: 
 description: Filmagens na preparação dos noivos, cerimónia religiosa, cartório, inclusive
   a festa. Vídeo resumo de 1 hora.
