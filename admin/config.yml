@@ -1,0 +1,74 @@
+backend:
+  name: git-gateway
+  accept_roles:
+    - admin
+    - client
+  branch: master
+
+media_folder: "assets/img/uploads"
+
+collections:
+  - label: "Sobre"
+    name: "sobre"
+    file: "sobre.md"
+    create: true
+    fields:
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Descrição", name: "description", widget: "text"}
+
+  - label: "Bookings"
+    name: "bookings"
+    folder: "collections/_portfolio/_bookings"
+    create: true
+    widget: "list"
+    field:
+      - {label: "Imagem", name: "image", widget: "image"}
+
+  - label: "Casamentos"
+    name: "casamentos"
+    folder: "collections/_portfolio/_casamentos"
+    create: true
+    widget: "list"
+    field:
+      - {label: "Imagem", name: "image", widget: "image"}
+
+  - label: "Diversos"
+    name: "diversos"
+    folder: "collections/_portfolio/_diversos"
+    create: true
+    widget: "list"
+    field:
+      - {label: "Imagem", name: "image", widget: "image"}
+
+  - label: "Serviços"
+    name: "servicos"
+    folder: "collections/_servicos"
+    create: true
+    fields:
+      - {label: "Titulo", name: "title", widget: "string"}
+      - label: "Icone"
+        name: "icon"
+        widget: "select"
+        options: ["youtube-play", "camera", "video-camera"]
+      - {label: "Description", name: "description", widget: "text"}
+
+  - label: "Preços de Bookings"
+    name: "preco_booking"
+    folder: "collection/_precos/_bookings"
+    create: true
+    fields:
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Preço", name: "price", widget: "number"}
+      - {label: "Nº de Fotos", title: "photos", widget: "number"}
+      - {label: "Extra", name: "extra", default: "Maquiagem", required: "false", widget: "string"}
+
+  - label: "Preços de Eventos"
+    name: "preco_eventos"
+    folder: "collection/_precos/_eventos"
+    create: true
+    fields:
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Preço", name: "price", widget: "number"}
+      - {label: "Nº de Fotos", title: "photos", widget: "number"}
+      - {label: "Extra", name: "extra", default: "Maquiagem", required: "false", widget: "string"}
+      - {label: "Descrição", name: "description", required: "false", widget: "text"}

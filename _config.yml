@@ -10,7 +10,7 @@ plugins:
 - jekyll-email-protect
 - jekyll-seo-tag
 - jekyll-sitemap
-- hawkins
+- jekyll-paginate-v2
 - jekyll-autolink_email
 
 analytics: 
@@ -18,9 +18,7 @@ analytics:
 exclude:
 - bower_components
 - node_modules
-
-include:
-  - portfolio
+- vendor
 
 sass:
   sass_dir: assets/_sass
@@ -29,17 +27,9 @@ sass:
 image: "/assets/img/logotype.svg"
 logo: "/assets/img/logo.svg"
 
-first_title: Quem Sou
-first_description: Olá Sou Rui Khembo, jovem ambicioso que veio ao mundo aos 28 de
-  Setembro de 1993, actualmente sou fotográfo profissional e produtor de videos. Sou
-  natural da Cidade de Tete, cresci na mesma cidade, sou formado em Engenharia Civil,
-  todavia, a produção multimedia encantou me e por essa recém paixão, bem paixão essa
-  que começou em 2014, desisti da Engenharia e dediquei me a este hobbie que hoje
-  tornou se minha profissão
 
+collections_dir: collections
 collections:
   portfolio:
-    output: true
-  precos_eventos:
-  precos_bookings:
+  precos:
   servicos:

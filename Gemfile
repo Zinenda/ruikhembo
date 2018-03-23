@@ -16,10 +16,8 @@ group :jekyll_plugins do
     gem 'jekyll-email-protect'
     gem 'jekyll-seo-tag'
     gem 'jekyll-sitemap'
-    gem 'hawkins'
     gem 'jekyll-autolink_email'
-    gem 'uglifier'
-    gem 'jekyll-cloudinary'
+    gem 'jekyll-paginate-v2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
