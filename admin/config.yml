@@ -8,6 +8,23 @@ backend:
 media_folder: "assets/img/uploads"
 
 collections:
+  - label: "Paginas"
+    name: "pages"
+    folder: "_pages"
+    create: true
+    fields:
+      - {label: "Titulo", name: "title", widget: "string"}
+      - label: "Paginação"
+        name: "pagination"
+        widget: "object"
+        fields:
+          - {label: "Ativação" name: "enabled", widget: "boolean", default: true}
+          - label: "Colecção"
+            name: "collection"
+            widget: "select"
+            options: ["bookings", "casamentos", "diversos"]
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+
   - label: "Sobre"
     name: "sobre"
     file: "sobre.md"
