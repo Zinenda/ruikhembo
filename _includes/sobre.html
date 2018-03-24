@@ -4,9 +4,12 @@
             <div class="center">
                 <div class="col s12">
                     <br><br><br>
-                    <img src="/assets/img/ruik.jpg" alt="{{ site.title }}" style="width: 200px; height: 200px;" class="circle">
-                    <h2>{{ site.first_title }}</h2>
-                    <p class="flow-text">{{ site.first_description }}</p>
+                    {% for item in site.sobre limit: 1 %}
+                        <img src="{{ item.image }}" alt="{{ site.title }}" style="width: 200px; height: 200px;" class="circle">
+                        <h2>{{ item.title }}</h2>
+                        <p class="flow-text justify">{{ item.description }}</p>
+                    {% endfor %}
+                    
                     {% include cta.html %}
                 </div>
             </div>
