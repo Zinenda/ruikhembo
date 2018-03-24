@@ -8,6 +8,11 @@
   name: Instagram
   icon: instagram
 
+# Cel
+- link: "tel:+258 84 610 1512"
+  name: Celular
+  icon: mobile
+
 # Email
 - link: mailto:rui.khembo@gmail.com
   name: Email
