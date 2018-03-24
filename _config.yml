@@ -30,7 +30,8 @@ logo: "/assets/img/logo.svg"
 
 collections_dir: collections
 collections:
-  portfolio:
-  precos:
-  servicos:
   sobre:
+  servicos:
+  portfolio:
+  eventos_price:
+  booking_price:
