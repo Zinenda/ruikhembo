@@ -11,13 +11,9 @@
   icon: tasks
 
 - link: "#portfolio"
-  name: Portfólio
-  icon: folder
+  name: Galeria
+  icon: image
 
 - link: "#precos"
   name: Preços
-  icon: dollar
-
-- link: "mailto:rui.khembo@gmail.com"
-  name: Contactos
-  icon: envelope
+  icon: dollar-sign

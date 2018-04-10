@@ -1,0 +1,59 @@
+<section id="portfolio" class="section scrollspy">
+    <div class="container">
+        <h2 class="center-align"><i class="fas fa-image"></i> <br> Galeria</h2>
+        <div class="row">
+            {% for item in site.bookings limit: 1 %}
+                <div class="col s12 l4">
+                    <div class="card medium hoverable">
+                        <div class="card-image">
+                            <img src="{{ item.image }}" alt="{{ item.title }}" class="materialboxed" data-caption="{{ item.title }}">
+                            <span class="card-title">Bookings</span>
+                        </div>
+                        <div class="card-content center">
+                            <p class="flow-text"><strong>Apreciem</strong></p>
+                        </div>
+                        <div class="card-action center">
+                            <a href="/bookings/" class="btn-large waves-effect waves-light" title="Bookings">Veja Mais</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+            {% for item in site.casamentos limit: 1 %}
+                <div class="col s12 l4">
+                    <div class="card medium hoverable">
+                        <div class="card-image">
+                            <img src="{{ item.image }}" alt="{{ item.title }}" class="materialboxed" data-caption="{{ item.title }}">
+                            <span class="card-title">Casamentos</span>
+                        </div>
+                        <div class="card-content center">
+                            <p class="flow-text"><strong>Apreciem</strong></p>
+                        </div>
+                        <div class="card-action center">
+                            <a href="/casamentos/" class="btn-large waves-effect waves-light" title="Casamentos">Veja Mais</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+            {% for item in site.diversos limit: 1 %}
+                <div class="col s12 l4">
+                    <div class="card medium hoverable">
+                        <div class="card-image">
+                            <img src="{{ item.image }}" alt="{{ item.title }}" class="materialboxed" data-caption="{{ item.title }}">
+                            <span class="card-title">Diversos</span>
+                        </div>
+                        <div class="card-content center">
+                            <p class="flow-text"><strong>Apreciem</strong></p>
+                        </div>
+                        <div class="card-action center">
+                            <a href="/diversos/" class="btn-large waves-effect waves-light" title="Diversos">Veja Mais</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section id="parallax3"></section>

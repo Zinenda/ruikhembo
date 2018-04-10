@@ -1,6 +1,6 @@
 ---
 title: Casal
-price: 3000.00 MTs
+price: 3500.00 MTs
 photos: 20
 pessoas: 2
 extra: Maquiagem

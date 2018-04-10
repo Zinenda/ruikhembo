@@ -1,15 +1,19 @@
 # Facebook
 - link: https://facebook.com/ruikhembo
   name: Facebook
-  icon: facebook
+  icon: facebook-f
+
+- link: https://m.me/ruikhembo
+  name: Messenger
+  icon: facebook-messenger
 
 # Instagram
-- link: https://instagram.com/ruikhembo\
+- link: https://instagram.com/ruikhembo
   name: Instagram
   icon: instagram
 
 # Cel
-- link: "tel:+258 84 610 1512"
+- link: tel:+258 84 610 1512
   name: Celular
   icon: mobile
 

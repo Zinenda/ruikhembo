@@ -12,7 +12,7 @@ body {
         family: 'Lato', sans-serif;
         size: 100%;
     }
-    color: #444;
+    color: $secondary-color;
 }
 
 body {
@@ -154,6 +154,5 @@ footer {
 // IMPORTED
 @import 
     "animate-bottom",
-    "materialize/materialize",
-    "font-awesome/font-awesome"
+    "materialize/materialize"
 ;

@@ -1,11 +1,11 @@
 {% for item in site.data.nav %}
     <li {% if item.link == page.url %} class="active" {% endif %}>
-        <a href="{% if page.layout == "page" %}/{% endif %}{{ item.link }}" title="{{ item.name }}" class="waves-effect waves-purple"><i class="fa fa-{{ item.icon }}"></i> {{ item.name }}</a>
-    </li>
-{% endfor %}
-<li class="divider"></li>
-{% for item in site.data.tabs %}
-    <li>
-        <a href="{{ item.link }}" title="{{ item.name }}" class="waves-effect waves-purple"><i class="fa fa-{{ item.icon }}"></i> {{ item.name }}</a>
+        <a 
+            href="{% if page.layout == "page" %}/{% endif %}{{ item.link }}" 
+            title="{{ item.name }}" 
+            class="waves-effect waves-light">
+            <i class="fa fa-{{ item.icon }} white-text"></i> 
+            {{ item.name }}
+        </a>
     </li>
 {% endfor %}
