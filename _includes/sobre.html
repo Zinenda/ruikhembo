@@ -4,8 +4,14 @@
             <div class="center">
                 <div class="col s12">
                     {% for item in site.sobre limit: 1 %}
-                        <h3><i class="fa fa-user"></i> <br> {{ item.title }}</h3>
-                        <p class="flow-text justify">{{ item.description }}</p>
+                        <h3>
+                            <i class="fa fa-{{ item.icon }}"></i>
+                            <br>
+                            {{ item.title }}
+                        </h3>
+                        <div class=" container justify">
+                            {{ item.content }}
+                        </div>
                     {% endfor %}
 
                     {% include cta.html %}

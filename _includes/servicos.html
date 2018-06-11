@@ -1,13 +1,19 @@
 <section id="servicos" class="section scrollspy grey lighten-4">
     <div class="container">
-        <div class="center">
-            <h2><i class="fas fa-tasks"></i> <br> Serviços</h2>
+        <div class="">
+            <h3 class="center-align"><i class="fas fa-tasks"></i> <br> Serviços</h3>
 
             <div class="row">
                 {% for item in site.servicos %}
                     <div class="col s12 l4 hoverable">
-                        <h4><i class="fas fa-{{ item.icon }}"></i> <br> {{ item.title }}</h4>
-                        <p>{{ item.description }}</p>
+                        <h4 class="center-align">
+                            <i class="fas fa-{{ item.icon }}"></i>
+                            <br>
+                            {{ item.title }}
+                        </h4>
+                        <div class="justify">
+                            {{ item.content }}
+                        </div>
                     </div>
                 {% endfor %}
             </div>

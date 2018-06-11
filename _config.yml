@@ -32,6 +32,6 @@ collections_dir: collections
 collections:
   sobre:
   servicos:
-  portfolio:
+  galeria:
   eventos_price:
   booking_price:

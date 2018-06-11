@@ -7,7 +7,7 @@ backend:
 
 media_folder: "assets/img/uploads"
 
-collections:
+collectionss:
   - label: "Paginas"
     name: "pages"
     folder: "_pages"
@@ -20,7 +20,7 @@ collections:
         fields:
           - {label: "Ativação" name: "enabled", widget: "boolean", default: true}
           - label: "Colecção"
-            name: "collection"
+            name: "collections"
             widget: "select"
             options: ["bookings", "casamentos", "diversos"]
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
@@ -32,31 +32,7 @@ collections:
     fields:
       - {label: "Imagem", name: "image", widget: "image"}
       - {label: "Titulo", name: "title", widget: "string", default: "Quem Sou"}
-      - {label: "Descrição", name: "description", widget: "text"}
-
-  - label: "Bookings"
-    name: "bookings"
-    folder: "collections/_bookings"
-    create: true
-    widget: "list"
-    field:
-      - {label: "Imagem", name: "image", widget: "image"}
-
-  - label: "Casamentos"
-    name: "casamentos"
-    folder: "collections/_casamentos"
-    create: true
-    widget: "list"
-    field:
-      - {label: "Imagem", name: "image", widget: "image"}
-
-  - label: "Diversos"
-    name: "diversos"
-    folder: "collections/_diversos"
-    create: true
-    widget: "list"
-    field:
-      - {label: "Imagem", name: "image", widget: "image"}
+      - {label: "Área de Texto", name: "body", widget: "markdown"}
 
   - label: "Serviços"
     name: "servicos"
@@ -68,11 +44,11 @@ collections:
         name: "icon"
         widget: "select"
         options: ["youtube-play", "camera", "video-camera"]
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Área de Texto", name: "body", widget: "markdown"}
 
   - label: "Preços de Bookings"
     name: "preco_booking"
-    folder: "collection/_booking_price"
+    folder: "collections/_booking_price"
     create: true
     fields:
       - {label: "Titulo", name: "title", widget: "string"}
@@ -82,7 +58,7 @@ collections:
 
   - label: "Preços de Eventos"
     name: "preco_eventos"
-    folder: "collection/_eventos_price"
+    folder: "collections/_eventos_price"
     create: true
     fields:
       - {label: "Titulo", name: "title", widget: "string"}
@@ -90,3 +66,19 @@ collections:
       - {label: "Nº de Fotos", title: "photos", widget: "number"}
       - {label: "Extra", name: "extra", default: "Maquiagem", required: "false", widget: "string"}
       - {label: "Descrição", name: "description", required: "false", widget: "text"}
+
+  - label: "Galeria"
+    name: "galeria"
+    folder: collections/_galeria
+    create: true
+    fields:
+      - {label: "Titulo", name: "title", widget: "string"}
+      - label: "Categoria"
+        name: "filter"
+        widget: "select"
+        options: ["Bookings", "Casamentos", "Paisagens", "Eventos"]
+      - label: "Imagens"
+        name: "images"
+        widget: "list"
+        field:
+          - {label: "Imagem", name: "image", widget: "image"}
