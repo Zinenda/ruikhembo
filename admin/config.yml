@@ -18,7 +18,7 @@ collectionss:
         name: "pagination"
         widget: "object"
         fields:
-          - {label: "Ativação" name: "enabled", widget: "boolean", default: true}
+          - {label: "Ativação", name: "enabled", widget: "boolean", default: true}
           - label: "Colecção"
             name: "collections"
             widget: "select"
