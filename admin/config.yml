@@ -7,7 +7,7 @@ backend:
 
 media_folder: "assets/img/uploads"
 
-collectionss:
+collections:
   - label: "Paginas"
     name: "pages"
     folder: "_pages"
