@@ -1,28 +1,12 @@
 backend:
-  name: github
-  repo: zinenda/ruikhembo # Path to your Github repository
+  name: git-gateway
+  accept_roles:
+    - admin
   branch: version2
 
 media_folder: "assets/img/uploads"
 
 collections:
-  - label: "Paginas"
-    name: "pages"
-    folder: "_pages"
-    create: true
-    fields:
-      - {label: "Titulo", name: "title", widget: "string"}
-      - label: "Paginação"
-        name: "pagination"
-        widget: "object"
-        fields:
-          - {label: "Ativação", name: "enabled", widget: "boolean", default: true}
-          - label: "Colecção"
-            name: "collections"
-            widget: "select"
-            options: ["bookings", "casamentos", "diversos"]
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-
   - label: "Sobre"
     name: "sobre"
     folder: "collections/_sobre"
