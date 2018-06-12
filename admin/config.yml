@@ -1,7 +1,6 @@
 backend:
   name: github
-  accept_roles:
-    - admin
+  repo: zinenda/ruikhembo # Path to your Github repository
   branch: version2
 
 media_folder: "assets/img/uploads"
