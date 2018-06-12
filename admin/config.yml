@@ -1,8 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
   accept_roles:
     - admin
-    - client
   branch: version2
 
 media_folder: "assets/img/uploads"
