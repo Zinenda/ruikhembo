@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   accept_roles:
     - admin
-  branch: version2
+  branch: master
 
 media_folder: "assets/img/uploads"
 
@@ -59,8 +59,4 @@ collections:
         name: "filter"
         widget: "select"
         options: ["Bookings", "Casamentos", "Paisagens", "Eventos"]
-      - label: "Imagens"
-        name: "images"
-        widget: "list"
-        field:
-          - {label: "Imagem", name: "image", widget: "image"}
+      - {label: "Imagem", name: "image", widget: "image"}
