@@ -2,10 +2,55 @@
 layout: default
 ---
 
-{% include sobre.html %}
+{% include home/style.html %}
 
-{% include servicos.html %}
+<div id="Header" class="tabcontent center" style="height: 90vh;">
+  <h1>
+      <img src="/assets/img/logotype.svg" alt="Rui Khembo" width="50%">
+  </h1>
+  {% include social.html %}
+</div>
 
-{% include portfolio.html %}
+<div id="Sobre" class="tabcontent" style="height: 90vh;">
+    <h4 class="center-align bolder"><i class="fas fa-user"></i> Sobre Mim</h4>
 
-{% include precos.html %}
+    {% for item in site.sobre limit: 1 %}
+        <div class="justify container">
+            {{ item.content }}
+        </div>
+    {% endfor %}
+</div>
+
+<div id="Servicos" class="tabcontent" style="height: 90vh;">
+  <h4 class="center-align bolder"><i class="fas fa-tasks"></i> Meus Serviços</h4>
+  
+  <div class="row">
+    {% for item in site.servicos %}
+        <div class="col s6 l4">
+            <h5 class="center-align"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</h5>
+
+            <div class="justify container">
+                {{ item.content }}
+            </div>
+        </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div id="Portfolio" class="tabcontent" style="height: 90vh;">
+    <h4 class="center-align bolder"><i class="fas fa-image"></i>Meu Portfólio</h4>
+  
+    {% for item in site.portfolio reversed limit: 4 %}
+        <div class="col s6 l3">
+            <img src="{{ item.title }}" alt="{{ item.title }}" data-caption="{{ item.title }}" class="responsive-img materialboxed">
+        </div>
+    {% endfor %}
+
+    <div class="center">
+        <a href="/portfolio/" class="btn-large waves-effect waves-light">Veja Mais</a>
+    </div>
+</div>
+
+{% include home/buttons.html %}
+
+{% include home/script.html %}

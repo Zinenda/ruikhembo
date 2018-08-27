@@ -8,54 +8,13 @@ backend:
 media_folder: "assets/img/uploads"
 
 collections:
-  - label: "Paginas"
-    name: "pages"
-    folder: "_pages"
-    create: true
-    fields:
-      - {label: "Titulo", name: "title", widget: "string"}
-      - label: "Paginação"
-        name: "pagination"
-        widget: "object"
-        fields:
-          - {label: "Ativação" name: "enabled", widget: "boolean", default: true}
-          - label: "Colecção"
-            name: "collection"
-            widget: "select"
-            options: ["bookings", "casamentos", "diversos"]
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-
   - label: "Sobre"
     name: "sobre"
-    file: "sobre.md"
+    folder: "collections/_sobre"
     create: true
     fields:
       - {label: "Titulo", name: "title", widget: "string"}
-      - {label: "Descrição", name: "description", widget: "text"}
-
-  - label: "Bookings"
-    name: "bookings"
-    folder: "collections/_portfolio/_bookings"
-    create: true
-    widget: "list"
-    field:
-      - {label: "Imagem", name: "image", widget: "image"}
-
-  - label: "Casamentos"
-    name: "casamentos"
-    folder: "collections/_portfolio/_casamentos"
-    create: true
-    widget: "list"
-    field:
-      - {label: "Imagem", name: "image", widget: "image"}
-
-  - label: "Diversos"
-    name: "diversos"
-    folder: "collections/_portfolio/_diversos"
-    create: true
-    widget: "list"
-    field:
-      - {label: "Imagem", name: "image", widget: "image"}
+      - {label: "Descrição", name: "body", widget: "markdown"}
 
   - label: "Serviços"
     name: "servicos"
@@ -67,25 +26,12 @@ collections:
         name: "icon"
         widget: "select"
         options: ["youtube-play", "camera", "video-camera"]
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Descrição", name: "body", widget: "markdown"}
 
-  - label: "Preços de Bookings"
-    name: "preco_booking"
-    folder: "collection/_precos/_bookings"
+  - label: "Portfólio"
+    name: "portfolio"
+    folder: "collections/_portfolio"
     create: true
     fields:
       - {label: "Titulo", name: "title", widget: "string"}
-      - {label: "Preço", name: "price", widget: "number"}
-      - {label: "Nº de Fotos", title: "photos", widget: "number"}
-      - {label: "Extra", name: "extra", default: "Maquiagem", required: "false", widget: "string"}
-
-  - label: "Preços de Eventos"
-    name: "preco_eventos"
-    folder: "collection/_precos/_eventos"
-    create: true
-    fields:
-      - {label: "Titulo", name: "title", widget: "string"}
-      - {label: "Preço", name: "price", widget: "number"}
-      - {label: "Nº de Fotos", title: "photos", widget: "number"}
-      - {label: "Extra", name: "extra", default: "Maquiagem", required: "false", widget: "string"}
-      - {label: "Descrição", name: "description", required: "false", widget: "text"}
+      - {label: "Imagem", name: "image", widget: "image"}

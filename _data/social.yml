@@ -1,14 +1,24 @@
 # Facebook
 - link: https://facebook.com/ruikhembo
-  name: Facebook
-  icon: facebook
+  title: Facebook
+  icon: facebook-f
+
+# Facebook
+- link: https://m.me/ruikhembo
+  title: Messenger
+  icon: facebook-messenger
 
 # Instagram
-- link: https://instagram.com/ruikhembo\
-  name: Instagram
+- link: https://instagram.com/ruikhembo
+  title: Instagram
   icon: instagram
 
+# Cel
+- link: tel:+258 84 610 1512
+  title: Celular
+  icon: mobile-alt
+
 # Email
-- link: mailto:rui.khembo@gmail.com
-  name: Email
+- link: mailto:ruikhembo@prostudiomoz.com
+  title: Email
   icon: envelope
