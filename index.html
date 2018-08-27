@@ -4,14 +4,14 @@ layout: default
 
 {% include home/style.html %}
 
-<div id="Header" class="tabcontent center" style="height: 90vh;">
+<div id="Header" class="tabcontent center" style="min-height: 90vh;">
   <h1>
       <img src="/assets/img/logotype.svg" alt="Rui Khembo" width="50%">
   </h1>
   {% include social.html %}
 </div>
 
-<div id="Sobre" class="tabcontent" style="height: 90vh;">
+<div id="Sobre" class="tabcontent" style="min-height: 90vh;">
     <h4 class="center-align bolder"><i class="fas fa-user"></i> Sobre Mim</h4>
 
     {% for item in site.sobre limit: 1 %}
@@ -21,15 +21,15 @@ layout: default
     {% endfor %}
 </div>
 
-<div id="Servicos" class="tabcontent" style="height: 90vh;">
+<div id="Servicos" class="tabcontent" style="min-height: 90vh;">
   <h4 class="center-align bolder"><i class="fas fa-tasks"></i> Meus Serviços</h4>
   
   <div class="row">
     {% for item in site.servicos %}
-        <div class="col s6 l4">
+        <div class="col s12 l4">
             <h5 class="center-align"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</h5>
 
-            <div class="justify container">
+            <div class="justify">
                 {{ item.content }}
             </div>
         </div>
@@ -37,7 +37,7 @@ layout: default
   </div>
 </div>
 
-<div id="Portfolio" class="center tabcontent" style="height: 90vh;">
+<div id="Portfolio" class="center tabcontent" style="min-height: 90vh;">
     <h4 class="bolder"><i class="fas fa-image"></i>Meu Portfólio</h4>
   
     <div class="row">
