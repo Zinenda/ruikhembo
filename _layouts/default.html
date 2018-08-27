@@ -2,19 +2,19 @@
     {% include head.html %}
     
     <body id="top">
-        <div class="animate-bottom">
-            {% if page.layout == "page" %}
-                {% include navbar.html %}
-                {% include header.html %}
-            {% endif %}
+        {% if page.layout == "page" %}
+            {% include header.html %}
+        {% endif %}
             
+        <main class="animate-bottom">
             {{ content }}
+        </main>
             
-            {% if page.layout == "page" %}
-                {% include fab.html %}
-                {% include footer.html %}
-            {% endif %}
-            {% include scripts.html %}
-        </div>
+        {% if page.layout == "page" %}
+            {% include fab.html %}
+            {% include footer.html %}
+        {% endif %}
+            
+        {% include scripts.html %}
     </body>
 </html>

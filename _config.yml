@@ -34,3 +34,13 @@ collections:
   precos:
   servicos:
   sobre:
+
+pagination:
+  enabled: true
+  per_page: 16
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail: 
+    before: 2
+    after: 2

@@ -3,18 +3,10 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
 
 {% if page.layout == "page" %}
-    <script src="/assets/js/jquery.min.js" defer></script>
-    <script src="/assets/js/materialize.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" integrity="sha256-auPoJwk/+RK6KSkib92Dkq1Y5hEkZvKtvSwucs15Skg=" crossorigin="anonymous" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js" integrity="sha256-gbqsBwBVZ0bNBUY4I5rT6yRhMbB9roODov0c8qE4iNE=" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="/assets/js/main.min.js" defer></script>
-
-    <link rel="stylesheet" href="/assets/lightbox-css/lightbox.min.css">
     <script src="/assets/js/masonry.pkgd.min.js" defer></script>
     <script src="/assets/js/init.js" defer></script>
-    <script src="/assets/js/lightbox.min.js" defer></script>
 {% endif %}
-
-{% if page.title == "Videos" %}
-    {% include light-youtube-embed.html %}
-{% endif %}
-
-{% include ga.html %}
